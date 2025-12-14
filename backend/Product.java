@@ -63,7 +63,7 @@ class Product implements Component {
 
     @Override
     public void display(String indent) {
-        // basePrice'ı da göstererek Strategy'nin etkisini görünür kılıyoruz
+        // basePrice'ı da göstererek Strategy'nin etkisini görünür kılıyoruz.
         System.out.printf("%s- %s (Base: $%.2f, Final: $%.2f, Stock: %d)%n",
                 indent, name.toLowerCase(), basePrice, getPrice(), stock);
     }
